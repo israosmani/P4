@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <title>Bangladesh Tour - Contact</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Heather;
+        }
+        
+        .topnav {
+            overflow: hidden;
+            background-color: #E37383;
+        }
+        
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 70px;
+            text-decoration: none;
+            font-size: 30px;
+        }
+        
+        .topnav a:hover {
+            background-color: #E37383;
+            color: black;
+        }
+        
+        .topnav a.active {
+            background-color: #E37383;
+            color: white;
+        }
+        
+        .topnav input[type=text] {
+            float: right;
+            padding: 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            border: none;
+            font-size: 30px;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .topnav a, .topnav input[type=text] {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+                padding: 14px;
+            }
+            
+            .topnav input[type=text] {
+                border: 1px solid #ccc;  
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg justify-content-start bg-dark navbar-dark col-12">
+                <a class="navbar-brand" href="home.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="activities.html">Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cuisine.html">Cuisine</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hotel.html">Hotel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="gallery.html">Gallery</a>
+                                <a class="dropdown-item" href="activities.html">Activities</a>
+                                <a class="dropdown-item" href="cuisine.html">Cuisine</a>
+                                <a class="dropdown-item" href="hotel.html">Hotel</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <input type="text" placeholder="Search..">
+    </div>
+    <style>
+      body {font-family: Heather;}
+      * {box-sizing: border-box;}
+      
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #E37383;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #E37383;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      </style>
+    <h3>Inquiry Form</h3>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="pnumber">Phone Number</label>
+        <input type="text" id="pnumber" name="phonemumber" placeholder="Your Phone Number..">
+        
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email..">
+    
+        <label for="qna">Questions/Comments</label>
+        <textarea id="qna" name="qna" placeholder="Questions/Comments.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+           <div class="row">
+               <span class="text-muted">&copy; Isra Osmani, 2024 |  Terms Of Use  |  Privacy Statement</span>
+           </div>
+        </div>
+     </footer>
+     
+    </body>
+</html>
